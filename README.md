@@ -1,1 +1,1 @@
-Tim_Buchalka_Java
+Java Apps Tim Buchalka's Course
