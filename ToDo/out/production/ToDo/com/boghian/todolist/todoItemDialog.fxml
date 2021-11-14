@@ -1,0 +1,21 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<DialogPane fx:controller="com.boghian.todolist.DialogController"
+            xmlns:fx="http://javafx.com/fxml">
+    <headerText>
+
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10" >
+            <Label text="Short description: " GridPane.rowIndex="0" GridPane.columnIndex="0"></Label>
+            <TextField fx:id="shortDescriptionField" GridPane.rowIndex="0" GridPane.columnIndex="1"></TextField>
+            <Label text="Details: " GridPane.rowIndex="1" GridPane.columnIndex="0"></Label>
+            <TextArea fx:id="detailsArea" GridPane.rowIndex="1" GridPane.columnIndex="1" wrapText="true">
+            </TextArea>
+            <Label text="Deadline: " GridPane.rowIndex="2" GridPane.columnIndex="1"></Label>
+            <DatePicker fx:id="deadlinePicker" GridPane.rowIndex="2" GridPane.columnIndex="1"></DatePicker>
+        </GridPane>
+    </content>
+    </DialogPane>
+
